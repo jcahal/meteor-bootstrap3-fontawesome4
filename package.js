@@ -21,6 +21,6 @@ Package.on_use(function (api) {
   // XXX this makes the paths to the icon sets absolute. it needs
   // to be included _after_ the standard bootstrap css so
   // that its styles take precedence.
-  api.add_files(path.join(asset_path, 'css', 'font-awesome.min.css'), 'client');
+  api.add_files(path.join(asset_path, 'css', 'font-awesome.css'), 'client');
   api.add_files(path.join('override.css'), 'client');
 });
