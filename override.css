@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'FontAwesome';
-  src: url('/packages/fontawesome4/lib/fonts/fontawesome-webfont.eot?v=4.0.3');
-  src: url('/packages/fontawesome4/lib/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('/packages/fontawesome4/lib/fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('/packages/fontawesome4/lib/fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('/packages/fontawesome4/lib/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  src: url('/packages/bootstrap3-fontawesome4/lib/fonts/fontawesome-webfont.eot?v=4.0.3');
+  src: url('/packages/bootstrap3-fontawesome4/lib/fonts/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('/packages/bootstrap3-fontawesome4/lib/fonts/fontawesome-webfont.woff?v=4.0.3') format('woff'), url('/packages/bootstrap3-fontawesome4/lib/fonts/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), url('/packages/bootstrap3-fontawesome4/lib/fonts/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
 }
 
