@@ -1,24 +1,26 @@
 Package.describe({
-  summary: "Provides bootstrap 3."
+  summary: "Provides Bootstrap 3 and Font-Awesome 4."
 });
 
 Package.on_use(function (api) {
   api.use('jquery');
 
   var path = Npm.require('path');
-  var asset_path = path.join('bootstrap-3');
+  var asset_path = path.join('lib');
   api.add_files(path.join(asset_path, 'css', 'bootstrap.css'), 'client');
   api.add_files(path.join(asset_path, 'css', 'bootstrap-theme.css'), 'client');
   api.add_files(path.join(asset_path, 'js', 'bootstrap.js'), 'client');
 
   // fonts
-  api.add_files(path.join(asset_path, 'fonts', 'glyphicons-halflings-regular.eot'), 'client');
-  api.add_files(path.join(asset_path, 'fonts', 'glyphicons-halflings-regular.ttf'), 'client');
-  api.add_files(path.join(asset_path, 'fonts', 'glyphicons-halflings-regular.svg'), 'client');
-  api.add_files(path.join(asset_path, 'fonts', 'glyphicons-halflings-regular.woff'), 'client');
+  api.add_files(path.join(asset_path, 'fonts', 'fontawesome-webfont.eot'), 'client');
+  api.add_files(path.join(asset_path, 'fonts', 'fontawesome-webfont.ttf'), 'client');
+  api.add_files(path.join(asset_path, 'fonts', 'fontawesome-webfont.svg'), 'client');
+  api.add_files(path.join(asset_path, 'fonts', 'fontawesome-webfont.woff'), 'client');
+  api.add_files(path.join(asset_path, 'fonts', 'FontAwesome.otf'), 'client');
 
   // XXX this makes the paths to the icon sets absolute. it needs
   // to be included _after_ the standard bootstrap css so
   // that its styles take precedence.
-  api.add_files(path.join('bootstrap-override.css'), 'client');
+  api.add_files(path.join(asset_path, 'css', 'font-awesome.min.css'), 'client');
+  api.add_files(path.join('override.css'), 'client');
 });

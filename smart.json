@@ -1,9 +1,9 @@
 {
-  "name": "bootstrap-3",
-  "description": "bootstrap 3.1.1 packaged for meteor",
-  "homepage": "https://github.com/mangasocial/meteor-bootstrap-3",
-  "author": "Manga Social Team (http://mangasocial.com)",
-  "version": "3.1.1-1",
-  "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+  "name": "bootstrap3-fontawesome4",
+  "description": "bootstrap 3.1.1 and font-awesome 4 packaged for meteor",
+  "homepage": "https://github.com/jcahal/meteor-bootstrap3-fontawesome4",
+  "author": "Jonathan Cahal forked from Manga Social Team (http://mangasocial.com)",
+  "version": "1.0",
+  "git": "https://github.com/jcahal/meteor-bootstrap3-fontawesome4.git",
   "packages": { }
 }

@@ -1,13 +1,6 @@
-Meteor Bootstrap-3
+Meteor Bootstrap 3 Font-Awesome 4
 ==================
 
 [Bootstrap 3.x](http://getbootstrap.com) packaged for [Meteor](http://meteor.com).
 
-
-### Installation
-
-With [Meteorite](https://github.com/oortcloud/meteorite) installed:
-
-```sh
-$ mrt add bootstrap-3
-```
+Forked from [Manga Social](https://github.com/mangasocial/meteor-bootstrap-3)
