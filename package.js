@@ -5,7 +5,7 @@ Package.describe({
 Package.on_use(function (api) {
   api.use('jquery');
 
-  api.add_files('/Monitor/packages/bootstrap3-fontawesome4/lib/css/bootstrap.css', 'client');
+  api.add_files('http://jcahal.kd.io/Monitor/packages/bootstrap3-fontawesome4/lib/css/bootstrap.css', 'client');
 //  api.add_files(path.join(asset_path, 'css', 'bootstrap-theme.css'), 'client');
 //  api.add_files(path.join(asset_path, 'js', 'bootstrap.js'), 'client');
 
